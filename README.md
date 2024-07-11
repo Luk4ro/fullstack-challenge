@@ -1,3 +1,20 @@
+# Other improvements not added inside the code files
+
+- Add a full page error boundary to catch any frontend errors and send to a 500 page. Also add other error pages such as 404
+- Add layout components to be shared across pages, e.g. navbar
+- Tests, can add unit testing, integration and E2E, even mutation testing.
+- Better react component structure - I used Atomic design at a previous role for our component library. The Post component could definitely
+  have the comment split out to a separate component. Same with the image component in the vault.
+- Add a Robots.txt with a sitemap for SEO
+- Maybe add tRPC for improved DX with typed endpoints. Didn't add due to time constraints. - Potentially not needed in newest NextJS due to server components?
+- Team-wide linting and formatting e.g. eslint + prettier
+- Pre-commit & pre-post hooks to run tests and linting
+- Pick an appropriate DB ORM, e.g. TypeORM, Prisma, Drizzle
+- DB indexes
+- Absolute imports, e.g. @components or @db
+- Middlewares to make accessing user session nice and easy
+- Multiple image sizes for mobile or desktop
+
 # Fanvue's Fullstack challenge
 
 Setup the project:
